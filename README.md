@@ -1,2 +1,3 @@
+# Simple CSV
 
-# simple_csv
+This is a simple program that interfaces with csv files using python
