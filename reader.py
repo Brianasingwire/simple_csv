@@ -3,7 +3,7 @@
 import csv
 
 
-def read_csv_file(name):
+def read_csv_file(name: str):
     all_lines = []
     with open(f'{name}.csv', 'r') as file:
         content = csv.reader(file, delimiter=',')
