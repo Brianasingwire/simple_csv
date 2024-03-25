@@ -1,9 +1,12 @@
+'''run function of the file'''
+
 import time
 from writer import write_to_csv_file
 from reader import read_csv_file
 
 
 def run():
+    '''Function to run csv file'''
     records = [
         ['name', 'score'],
         ['luke', 30],
